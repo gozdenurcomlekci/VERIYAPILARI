@@ -1,0 +1,125 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Python programlama dilinde print komutu ekrandan kullanıcıya bilgi veren bir koddur.\n",
+        "Veri yapıları ve Algoritmalar dersi ilk kodlama çıktısıdır. İGÜ İSTKA SİBER AKADEMİ MERKEZİ-19.08.2024"
+      ],
+      "metadata": {
+        "id": "ryN8KsH269ZP"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"Merhaba,İGÜ-İSTKA/ \")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "3xRhlEna4KBQ",
+        "outputId": "781070f7-4e8b-4b00-d943-5881c1550f7a"
+      },
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Merhaba,İGÜ-İSTKA/ \n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import sys #import python programlama dilinde yazılım kütüphane eklemeye yarayan bir kod parçası\n",
+        "print(sys.version)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "7DA32EgW6C7A",
+        "outputId": "756400d9-ed77-49fe-d381-42a71d5e21d5"
+      },
+      "execution_count": 6,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "3.10.12 (main, Jul 29 2024, 16:56:48) [GCC 11.4.0]\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "from google.colab import drive #google colab-drive bağlantısı\n",
+        "\n",
+        "drive.mount(\"/content/drive\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "EY78wSFB7uCQ",
+        "outputId": "d5155f65-254b-4076-8be0-ca615eff8094"
+      },
+      "execution_count": 8,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Drive already mounted at /content/drive; to attempt to forcibly remount, call drive.mount(\"/content/drive\", force_remount=True).\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import os\n",
+        "os.chdir(\"/content/drive/My Drive/VERIYAPILARI_ISTKA\")\n",
+        "!pwd"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ywxrsgco87HY",
+        "outputId": "ad8715da-0341-465c-c6b3-2cabf8a010dd"
+      },
+      "execution_count": 21,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "/content/drive/My Drive/VERIYAPILARI_ISTKA\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
